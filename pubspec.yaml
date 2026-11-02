@@ -1,4 +1,4 @@
-name: antistress_pour_elea
+name: antistress_app
 description: Application antistress pour Elea
 publish_to: 'none'
 version: 1.0.0+1
@@ -9,3 +9,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/icon.png"
